@@ -42,6 +42,7 @@
   "resources":[
     {"id":{"name":"fnt_subtitle","path":"fonts/fnt_subtitle/fnt_subtitle.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_game_menu","path":"objects/obj_game_menu/obj_game_menu.yy",},},
     {"id":{"name":"obj_game_title","path":"objects/obj_game_title/obj_game_title.yy",},},

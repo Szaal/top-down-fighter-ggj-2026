@@ -30,7 +30,7 @@ audio_group_load(ag_sfx);
 
 // Bobbing Animation
 
-bob_range = 10; 
+bob_range = 15; 
 bob_speed = 0.05; 
 timer = 0;
 offset = 0;

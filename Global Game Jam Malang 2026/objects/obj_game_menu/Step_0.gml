@@ -17,10 +17,18 @@ var _key_cancel = keyboard_check_pressed(vk_shift) || keyboard_check_pressed(ord
 
 if (_key_up) {
     menu_index = (menu_index - 1 + menu_total) % menu_total;
+	if (menu_index = 1)
+	{
+		menu_index = 0;
+	}
     audio_play_sound(snd_menu_move, 0, 0);
 }
 if (_key_down) {
     menu_index = (menu_index + 1) % menu_total;
+	if (menu_index = 1)
+	{
+		menu_index = 2;
+	}
     audio_play_sound(snd_menu_move, 0, 0);
 }
 

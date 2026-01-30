@@ -10,8 +10,12 @@ for (var _i = 0; _i < menu_total; _i++) {
     var _y = menu_y_pos + (_i * line_height);
     var _text = menu_options[menu_screen][_i];
 	var _color = c_white;
+	if (_i == 1)
+	{
+		_color = c_gray;
+	}
     
-    if (_i == menu_index) {
+    if (_i == menu_index && !(_i == 1)) {
         _color = c_yellow;
     }
     
