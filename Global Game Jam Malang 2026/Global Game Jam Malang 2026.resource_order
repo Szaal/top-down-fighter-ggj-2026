@@ -28,5 +28,7 @@
     {"name":"rm_intro","order":1,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_temp_background","order":1,"path":"sprites/spr_temp_background/spr_temp_background.yy",},
+    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
