@@ -2,6 +2,9 @@
 
 // Stats
 hp = 2;
+atk = [3, 3, 8];
+current_mask = "None";
+
 
 // Speeds
 player_speed = 4;

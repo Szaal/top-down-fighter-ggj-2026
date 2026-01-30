@@ -55,7 +55,6 @@ switch (state)
         
         dash_timer--;
         
-        // Visual Juice: Ghost Trail
         if (dash_timer % 2 == 0) {
             var _g = instance_create_layer(x, y, "Instances", obj_ghost);
             _g.sprite_index = sprite_index;
