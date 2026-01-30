@@ -26,6 +26,7 @@
     {"name":"obj_ghost","order":2,"path":"objects/obj_ghost/obj_ghost.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"rm_intro","order":1,"path":"rooms/rm_intro/rm_intro.yy",},
+    {"name":"rm_level1","order":2,"path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_temp_background","order":1,"path":"sprites/spr_temp_background/spr_temp_background.yy",},
     {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
