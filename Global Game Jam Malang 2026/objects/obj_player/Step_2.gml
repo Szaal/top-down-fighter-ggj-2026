@@ -10,13 +10,12 @@ if (instance_exists(obj_player))
     var _cam_h = camera_get_view_height(_cam);
 	
 	// Defines the Lean
-	var _angle = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
-    var _dist = 16;
+	var _dist = 16;
 	
 
     // Find the point the direction of the mouse
-    var _offset_x = lengthdir_x(_dist, _angle);
-    var _offset_y = lengthdir_y(_dist, _angle);
+    var _offset_x = lengthdir_x(_dist, target_angle);
+    var _offset_y = lengthdir_y(_dist, target_angle);
 
     var _target_x = obj_player.x + _offset_x - (_cam_w / 2);
     var _target_y = obj_player.y + _offset_y - (_cam_h / 2);
