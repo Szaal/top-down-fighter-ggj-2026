@@ -17,10 +17,10 @@ state = "MOVE";
 hsp = 0;
 vsp = 0;
 can_dash = true;
-dash_spd = 12;      
+dash_spd = 8;      
 dash_duration = 8;  
-base_cooldown = 30;
-dash_cooldown = 30; 
+base_cooldown = 300;
+dash_cooldown = 300; 
 dash_dir = 0;
 is_invincible = false;
 

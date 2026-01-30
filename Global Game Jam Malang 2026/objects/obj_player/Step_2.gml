@@ -27,7 +27,7 @@ if (instance_exists(obj_player))
     var _cur_x = camera_get_view_x(_cam);
     var _cur_y = camera_get_view_y(_cam);
     
-    var _spd = 0.1; // Adjust this (0.05 for heavy, 0.2 for snappy)
+    var _spd = 1; // Adjust this (0.05 for heavy, 0.2 for snappy)
 
     var _final_x = lerp(_cur_x, _target_x, _spd);
     var _final_y = lerp(_cur_y, _target_y, _spd);

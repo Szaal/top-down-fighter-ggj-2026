@@ -40,7 +40,6 @@ switch (state)
             state = "DASH";
             dash_timer = dash_duration;
             can_dash = false;
-            alarm[0] = dash_cooldown; // Reset can_dash after cooldown
             
             // Dash in current movement direction, or where facing if standing still
             dash_dir = (_is_moving) ? point_direction(0, 0, _hor, _ver) : image_angle;
@@ -84,7 +83,7 @@ if (dash_cooldown > 0)
 else if (!can_dash) 
 {
     can_dash = true;
-    
+	
     image_xscale = 1.5;
     image_yscale = 1.5;
 }
