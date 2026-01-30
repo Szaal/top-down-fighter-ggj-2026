@@ -1,0 +1,26 @@
+# Use this for GameMaker Studio 2 projects
+
+# Windows & Mac temporary build files
+/options/main/inherited/
+/runtime/
+/cache/
+/export/
+
+# Local user settings (Window positions, recent files, etc.)
+# This is the most important one to ignore!
+local_settings.json
+/notes/
+/datafiles_yy/
+
+# Android/iOS specific build folders
+/as_project/
+/ios_project/
+
+# Logs and Crash Dumps
+/ui.log
+/config.log
+*.log
+*.dmp
+
+# macOS specific
+.DS_Store
