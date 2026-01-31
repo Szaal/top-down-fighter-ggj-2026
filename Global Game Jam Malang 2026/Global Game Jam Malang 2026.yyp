@@ -55,6 +55,7 @@
     {"id":{"name":"snd_menu_move","path":"sounds/snd_menu_move/snd_menu_move.yy",},},
     {"id":{"name":"spr_collision_wall","path":"sprites/spr_collision_wall/spr_collision_wall.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
+    {"id":{"name":"spr_player_mask","path":"sprites/spr_player_mask/spr_player_mask.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
