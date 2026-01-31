@@ -70,9 +70,24 @@ switch (state)
 }
 
 // --- MOVEMENT & ROTATION ---
+// Collision with Collision_Tiles (map wall)
+if (place_meeting_tile(hsp, 0)) {
+	while (!place_meeting_tile(sign(hsp), 0)) {
+		x += sign(hsp);
+	}
+	hsp = 0;
+}
+
+if (place_meeting_tile(0, vsp)) {
+    while (!place_meeting_tile(0, sign(vsp))) {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
+
+// Movement code
 x += hsp;
 y += vsp;
-
 
 
 // --- DASH RECHARGE INDICATOR ---

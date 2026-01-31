@@ -28,3 +28,6 @@ is_invincible = false;
 
 hsp = 0; vsp = 0;
 target_angle = 0;
+
+// Collision Detector
+collision_tilemap = layer_tilemap_get_id("Collision_Tiles");
